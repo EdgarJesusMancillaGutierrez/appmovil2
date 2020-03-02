@@ -5,11 +5,7 @@ import {View, StyleSheet, Alert, TextInput} from 'react-native';
 import { Container,Button,Text, Header, Content, Card, CardItem,Body,Item, Label, Input,Icon} from "native-base";
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-
-
-
 function Registro({navigation,route}){
-
     return(
        <Container>
        
@@ -49,19 +45,13 @@ function Registro({navigation,route}){
               <Button 
                 onPress={() =>navigation.navigate('Login',{})                 
               } title="Registrate"/>
-            
-          
           <Icon type= 'FontAwesome' name='facebook'></Icon>   
           <Icon type= 'FontAwesome' name='google'></Icon>
-          
           </Card>
-        
         </Content>
-        
       </Container>
     );
 }
-
 const misEstilos = StyleSheet.create({
   content: {
     flex: 1,
@@ -81,9 +71,5 @@ const misEstilos = StyleSheet.create({
         alignItems: 'center',
     }
   }
-
 });
-
-
-
 export default Registro;
