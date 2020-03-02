@@ -1,3 +1,5 @@
+//MANCILLA GUTIÉRREZ EDGAR JESÚS
+//TI-02-SM-18
 import React from 'react';
 import { View, StyleSheet, Alert, TextInput, Button } from 'react-native';
 import {Container,Text,Header,Content,Card,CardItem,Body,Item,Label,Input,Icon} from 'native-base';
