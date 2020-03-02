@@ -9,10 +9,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 function Login({ navigation }) {
 const [postText, setPostText] = React.useState('');
 const [postText1, getPostText1] = React.useState('');
-
   return (
     <Container>
-     
       <Content padder contentContainerStyle={misEstilos.content}>
         <Card>
           <CardItem header bordered>
